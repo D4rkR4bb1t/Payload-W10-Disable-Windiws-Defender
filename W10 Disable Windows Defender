@@ -1,8 +1,10 @@
 REM Disable the Windows Defender in Windows 10
+REM Author: D4kR4bb1t
 
 REM Most older machines will probably need more delay
 
 REM let the HID enumerate
+
 DELAY 2000
 ESCAPE
 DELAY 100
