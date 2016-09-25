@@ -3,9 +3,9 @@ REM Author: D4kR4bb1t
 
 REM Most older machines will probably need more delay
 
-REM let the HID enumerate
-
+REM Wait to the HID enumerate all devices
 DELAY 2000
+
 ESCAPE
 DELAY 100
 CONTROL ESCAPE
